@@ -20,7 +20,7 @@ int main() {
     int a;
     cin >> a;
     inc(a);
-    cout << "\n";
+    cout << endl;
     dec(a);
     return 0;
 }
