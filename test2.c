@@ -1,11 +1,13 @@
 #include<stdio.h>
+#include<string.h>
 
 int main() {
-    int arr[2][3] = {0}, start = 1;
-    for (int i = 0; i <= 2; i++) {
-        for (int j = 0; j <= 3; j++) {
-            scanf("%d", &arr[i][j]);
-        }
+    char line[100];
+    gets(line);
+    int i = 0;
+    while ( line[i] != '\n') {
+        printf("%c", line[i]);
+        i++;
     }
     return 0;
 }
